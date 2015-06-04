@@ -11,10 +11,10 @@ In `<dependencies>`:
 
 ```xml
 
-	<!-- jsonrpc4j -->
+	<!-- zabbix java client -->
 	<dependency>
 		<groupId>com.github.zabbixjavaclient</groupId>
-		<artifactId>jsonrpc4j</artifactId>
+		<artifactId>zabbix-java-client</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</dependency>
 
@@ -53,4 +53,9 @@ This client is aim to be use with Zabbix 2.4, api reference is available here : 
 API is implemented for now, contributions are welcomed.
 
 ## Contributions
+
+Client implements methods get, create, update and delete for elements : Application, Host, Hostgroup, Interface, Item, Template, Trigger.
+
+Client is designed, so it's only necessary to add java bean for elements, and add method on ZabbixApi interface. Method signature should follow simple name convention (*actionElement*).
+
 

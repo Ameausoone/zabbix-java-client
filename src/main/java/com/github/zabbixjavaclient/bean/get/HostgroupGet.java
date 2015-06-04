@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.github.zabbixjavaclient.bean.Hostgroup;
-import com.github.zabbixjavaclient.bean.HostgroupFilter;
+import com.github.zabbixjavaclient.bean.get.filter.HostgroupFilter;
 import com.github.zabbixjavaclient.bean.list.HostgroupList;
 
 @Data

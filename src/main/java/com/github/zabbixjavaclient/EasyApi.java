@@ -1,8 +1,8 @@
 package com.github.zabbixjavaclient;
 
-import static com.github.zabbixjavaclient.bean.HostgroupFilter.hostgroupFilter;
 import static com.github.zabbixjavaclient.bean.get.HostGet.hostget;
 import static com.github.zabbixjavaclient.bean.get.HostgroupGet.hostgroupget;
+import static com.github.zabbixjavaclient.bean.get.filter.HostgroupFilter.hostgroupFilter;
 import static com.google.common.collect.Lists.newArrayList;
 import static java.util.stream.Collectors.toList;
 
@@ -10,11 +10,11 @@ import java.util.List;
 import java.util.Optional;
 
 import com.github.zabbixjavaclient.bean.Host;
-import com.github.zabbixjavaclient.bean.HostFilter;
 import com.github.zabbixjavaclient.bean.Hostgroup;
 import com.github.zabbixjavaclient.bean.Template;
-import com.github.zabbixjavaclient.bean.TemplateFilter;
 import com.github.zabbixjavaclient.bean.get.TemplateGet;
+import com.github.zabbixjavaclient.bean.get.filter.HostFilter;
+import com.github.zabbixjavaclient.bean.get.filter.TemplateFilter;
 
 /**
  * @author Antoine Méausoone

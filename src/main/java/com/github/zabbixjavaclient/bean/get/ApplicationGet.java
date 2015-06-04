@@ -12,7 +12,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.github.zabbixjavaclient.bean.Application;
-import com.github.zabbixjavaclient.bean.ApplicationFilter;
+import com.github.zabbixjavaclient.bean.get.filter.ApplicationFilter;
 import com.github.zabbixjavaclient.bean.list.ApplicationList;
 
 @Data

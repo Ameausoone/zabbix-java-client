@@ -4,14 +4,15 @@
 	<groupId>com.github.zabbixjavaclient</groupId>
 	<artifactId>zabbix-java-client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	
+
 	<name>Java Client for Zabbix Api</name>
-	
+
 	<url>https://github.com/Ameausoone/zabbix-java-client</url>
+	
 	<scm>
 		<url>https://github.com/Ameausoone/zabbix-java-client.git</url>
 	</scm>
-	
+
 	<dependencies>
 		<dependency>
 			<groupId>com.github.briandilley.jsonrpc4j</groupId>
@@ -28,7 +29,7 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
@@ -81,8 +82,15 @@
 			<version>2.0M10</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-yaml</artifactId>
+			<version>2.5.3</version>
+			<scope>test</scope>
+		</dependency>
+
 	</dependencies>
-	
+
 	<build>
 		<plugins>
 			<plugin>

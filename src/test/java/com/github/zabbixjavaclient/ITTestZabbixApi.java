@@ -34,7 +34,7 @@ import com.github.zabbixjavaclient.bean.get.filter.ApplicationFilter;
 import com.github.zabbixjavaclient.bean.get.filter.TemplateFilter;
 
 @Slf4j
-public class TestZabbixApi {
+public class ITTestZabbixApi {
 
 	private ZabbixApi zapi;
 

@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import com.github.zabbixjavaclient.bean.Hostgroup;
 import com.github.zabbixjavaclient.bean.get.HostgroupGet;
 
-public class TestHostgroupMethods extends StandardTestZabbixApi {
+public class ITTestHostgroupMethods extends StandardTestZabbixApi {
 
 	private Integer groupid;
 

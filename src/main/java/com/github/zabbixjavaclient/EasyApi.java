@@ -17,7 +17,7 @@ import com.github.zabbixjavaclient.bean.get.filter.HostFilter;
 import com.github.zabbixjavaclient.bean.get.filter.TemplateFilter;
 
 /**
- * @author Antoine Méausoone
+ * @author Antoine Meausoone
  * 
  *         Some shortcuts methods for @see {@link ZabbixApi}
  *

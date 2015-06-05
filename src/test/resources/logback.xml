@@ -10,9 +10,13 @@
 		</encoder>
 	</appender>
 
-<logger name="com.github.zabbixjavaclient" level="DEBUG" additivity="false">
+	<logger name="com.github.zabbixjavaclient" level="DEBUG"
+		additivity="false">
 		<appender-ref ref="STDOUT" />
-	</logger></logger>
+	</logger>
+	<logger name="sun.net" level="INFO"	additivity="false">
+		<appender-ref ref="STDOUT" />
+	</logger>
 
 	<!-- By default, the level of the root level is set to DEBUG -->
 	<root level="DEBUG">
